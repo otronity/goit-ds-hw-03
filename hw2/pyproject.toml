@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw2"
+version = "0.1.0"
+description = ""
+authors = ["Olga Troino <otronity@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.13.0"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+sqlalchemy = "^2.0.36"
+pymongo = "^4.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
